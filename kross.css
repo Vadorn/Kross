@@ -1,0 +1,39 @@
+.div_field {
+  border: 1px solid black;
+  padding: 20px;
+  float: left;
+  margin: 30px 20px;
+}
+.div_cell {
+  width: 100px;
+  height: 100px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  text-align: center;
+  font-size: xx-large;
+  line-height: 100px;
+}
+.active {
+  background-color: DarkOliveGreen;
+}
+.inactive {
+  background-color: white;
+
+}
+.words_we_need{
+  padding-top: 20px;
+  column-count: 1; /*количество колонок, на которое хотим разбить текст*/
+  -moz-column-count: 1; /*для мозилы*/
+  -webkit-column-count: 1; /*для webkit браузеров*/
+  column-gap: 40px; /*отступ между колонками*/
+  -moz-column-gap: 40px;
+  -webkit-column-gap: 40px;
+  width: 75px;
+  height: 50%;
+  font-size: x-large;
+
+
+
+
+}
